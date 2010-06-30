@@ -1,0 +1,28 @@
+x11-drivers/nvidia-drivers -multilib -custom-cflags
+dev-libs/DirectFB -X
+app-admin/syslog-ng -sql
+dev-vcs/git -gtk
+dev-vcs/subversion -dso
+dev-util/codeblocks contrib
+media-sound/sonata -trayicon
+media-video/vlc -nsplugin
+www-plugins/adobe-flash -32bit
+dev-db/mysql embedded -minimal
+net-print/hplip new-hpcups
+dev-db/sqlite fts3
+app-office/openoffice -java -nsplugin
+sys-apps/qingy -directfb
+dev-libs/nss utils
+net-analyzer/nmap -gtk
+games-fps/freedoom doomsday
+games-fps/doom-data doomsday
+media-sound/ncmpcpp clock outputs fftw visualizer
+www-client/uzbl -helpers -gnome
+net-libs/libsoup -gnome
+games-fps/nexuiz maps
+sys-fs/udev extras
+app-portage/eix optimization
+mail-client/mutt sidebar smime smtp pop 
+net-im/emesene webcam 
+
+# vim: nospell
